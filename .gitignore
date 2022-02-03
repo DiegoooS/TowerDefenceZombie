@@ -1,0 +1,94 @@
+# =============== #
+# Unity generated #
+# =============== #
+/TowerDefenceZombie/[Ll]ibrary/
+/TowerDefenceZombie/[Tt]emp/
+/TowerDefenceZombie/[Oo]bj/
+/TowerDefenceZombie/[Bb]uild/
+/TowerDefenceZombie/[Bb]uilds/
+/TowerDefenceZombie/[Ll]ogs/
+/TowerDefenceZombie/Assets/AssetStoreTools*
+/TowerDefenceZombie/UnityPackageManager
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+/TowerDefenceZombie/.consulo/
+/TowerDefenceZombie/.vs/
+/TowerDefenceZombie/ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+*.tmp
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.vscode
+
+# ====================== #
+# Gradle cache directory #
+# ====================== #
+/TowerDefenceZombie/.gradle/
+
+# ============================= #
+# Unity3D generated meta files  #
+# ============================= #
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# ======================================== #
+# Unity3D generated file on crash reports  #
+# ======================================== #
+sysinfo.txt
+*.stackdump
+
+# ======================================== #
+# Crashlytics generated file               #
+# ======================================== #
+crashlytics-build.properties
+
+# ==================== #
+# Builds               #
+# ==================== #
+*.apk
+*.unitypackage
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+[Dd]esktop.ini
+
+# =============== #
+#      Other      #
+# =============== #
+*.blend1
+*.orig
+*.orig.meta
+*.blend1.meta
+
+# =============== #
+#    Whiteboard   #
+# =============== #
+PropertiesAndMB.rar
+PropertiesAndMB.7z
+
+
+# =============== #
+#       Rider	  #
+# =============== #
+/PropertiesAndMB/.idea/
