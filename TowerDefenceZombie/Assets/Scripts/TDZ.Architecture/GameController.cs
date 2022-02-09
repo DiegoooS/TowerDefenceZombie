@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TDZ.UI;
 
 namespace TDZ.Architecture
 {
     public class GameController : MonoBehaviour
     {
+        [SerializeField] GameView gameView;
+        [SerializeField] MenuView menuView;
+
         private GameState gameState;
         private MenuState menuState;
         private BaseState currentlyActiveState;
@@ -35,8 +39,8 @@ namespace TDZ.Architecture
 
         private void CreateStates()
         {
-            gameState = new GameState();
-            menuState = new MenuState();
+            gameState = new GameState(gameView);
+            menuState = new MenuState(menuView);
         }
     }
 

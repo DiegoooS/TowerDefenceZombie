@@ -1,14 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TDZ.UI;
 
 namespace TDZ.Architecture
 {
     public class GameState : BaseState
     {
+        private GameView gameView;
+
+        public GameState(GameView gameView)
+        {
+            this.gameView = gameView;
+        }
+
         public override void InitState()
         {
-            Debug.Log("GAME STATE INIT");
+            gameView?.ShowView();
         }
 
         public override void UpdateState()
@@ -18,7 +26,7 @@ namespace TDZ.Architecture
 
         public override void DestroyState()
         {
-            
+            gameView?.HideView();
         }
     } 
 }
